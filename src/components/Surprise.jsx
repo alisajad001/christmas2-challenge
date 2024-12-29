@@ -23,12 +23,12 @@ const Surprise = () => {
       // Play the surprise sound
       surpriseSound.currentTime = 0;
       surpriseSound.play();
-
-      setTimeout(() => {
-        setShowSurprise(false);
-        setName('');
-      }, 3000);
     }
+  };
+
+  const handleRename = () => {
+    setShowSurprise(false);
+    setName('');
   };
 
   return (
@@ -39,6 +39,7 @@ const Surprise = () => {
             placeholder="Enter your name"
             className="outline-none text-white text-center p-2 px-0 rounded"
             onChange={(e) => setName(e.target.value)}
+            onFocus={handleRename}
             value={name}
           />
           <button
