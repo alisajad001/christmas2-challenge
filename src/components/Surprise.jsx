@@ -33,7 +33,7 @@ const Surprise = () => {
 
   return (
     <>
-      <Html distanceFactor={9} position={[-4, 1.1, 2]}>
+      <Html distanceFactor={6} position={[3, 0.5, 2]}>
         <div className="flex flex-col items-center justify-center p-4 rounded-md bg-slate-900 text-white">
           <input
             placeholder="Enter your name"

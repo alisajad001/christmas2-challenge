@@ -29,7 +29,7 @@ export default function Sounds({ isPlaying, setIsPlaying }) {
   };
 
   return (
-    <Html distanceFactor={9} position={[-4, 2, 2]}>
+    <Html distanceFactor={6} position={[-4, 2, 2]}>
       <div className="flex items-center gap-2 w-52 p-2 font-bold rounded-md bg-slate-900 text-white">
         <button
           onClick={togglePlay}

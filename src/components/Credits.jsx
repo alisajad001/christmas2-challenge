@@ -38,7 +38,7 @@ const Credits = () => {
   };
 
   return (
-    <Html position={[-4, 1.5, 2]} distanceFactor={9}>
+    <Html position={[-4, 1.6, 2]} distanceFactor={6}>
       <div className="relative">
         {/* Info Button */}
         <button
