@@ -24,7 +24,7 @@ const Lights = ({ tree1Color, tree2Color, tree3Color, isPlaying }) => {
 
   return (
     <>
-      <directionalLight position={[0, 5, 2]} intensity={0.5} />
+      <directionalLight position={[0, 5, 2]} intensity={0.3} />
       <pointLight
         position={[-0.5, 0, 0]}
         color={tree1Color}
